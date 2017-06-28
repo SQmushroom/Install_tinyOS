@@ -6,8 +6,8 @@ TINYOS_DIR="$ROOT_DIR/tinyos-main"
 
 before_reboot(){
 
-	#sudo apt-get -y update
-	#sudo apt-get upgrade
+	sudo apt-get -y update
+	sudo apt-get upgrade
 	
 	sudo rm /var/lib/apt/lists/lock
 	sudo rm /var/cache/apt/archives/lock
